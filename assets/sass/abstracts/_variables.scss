@@ -1,0 +1,58 @@
+// Color Scheme
+
+// First Color Scheme
+$white: #FFFFFF;
+$blue-sky: #92DCE4;
+$coral-red: #EF6364;
+
+
+
+// Tipography
+
+//Font Family
+$futura: 'Futura', sans-serif;
+
+
+
+// Font Weight
+$regular: 400;
+$medium: 300;
+$negro: 900;
+
+
+// Font Sizes
+$xxx-large: 70px;
+$xx-large: 40px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+
+//Buttons size
+$medium-button: 200px;
+$small-button: 100px;
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
