@@ -9987,6 +9987,9 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .info__bloguera .linea {
+    display: none;
+  }
 
   .foto__bloguera {
     display: flex;
@@ -10011,6 +10014,7 @@ body {
   margin: 1em auto 0.4em;
   border-style: inset;
   border-width: 1px;
+  margin-bottom: 30px;
 }
 
 .card {

@@ -6,7 +6,6 @@
   object-fit: cover;
 }
 
-
 .bloguera {
   display: flex;
   justify-content: space-between;
@@ -14,7 +13,6 @@
   margin: 0 0 50px;
   padding: 0;
 }
-
 
 .foto__bloguera {
   display: flex;
@@ -32,7 +30,6 @@
   }
 }
 
-
 .info__bloguera {
   display: block;
   align-self: center;
@@ -42,6 +39,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 @media (max-width: 576px) {
   .info__bloguera {
     padding-right: 0;
@@ -57,7 +55,12 @@
       text-overflow: ellipsis;
       white-space: nowrap;
     }
+
+    .linea {
+      display: none;
   }
+}
+
 
   .foto__bloguera {
     display: flex;
@@ -78,12 +81,11 @@
   }
 }
 
-
-
 .linea {
   display: block;
   width: 100%;
   margin: 1em auto 0.4em;
   border-style: inset;
   border-width: 1px;
+  margin-bottom: 30px;
 }
